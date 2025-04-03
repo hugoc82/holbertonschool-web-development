@@ -14,10 +14,10 @@ html, body {
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url("../html_advanced/public/fonts/SourceSansPro-Regular.otf");
+    src: url("./public/fonts/SourceSansPro-Regular.otf");
 
     font-family: "Spin Cycle OT";
-    src: url("../html_advanced/public/fonts/spincycle_ot.otf");
+    src: url("./public/fonts/spincycle_ot.otf");
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 header {
-    background-image: url("../html_advanced/public/images/background.png");
+    background-image: url("./public/images/background.png");
     height: 1090px;
     background-size: cover;
     display: flex;
@@ -67,7 +67,7 @@ nav {
     margin-top: 40px;
 }
 
-#section1 {
+#sectionHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
